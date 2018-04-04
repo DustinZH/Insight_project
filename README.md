@@ -5,7 +5,7 @@
 - README.md 
 - run.sh
 - src
-  - com.insight
+  - com.insight
     - StreamHandler.java  
     - common
       - ArgumentParser.java  
@@ -13,8 +13,8 @@
        - LogEntry.java
        - User.java        
      - service
-       - Writer.java    (write result into file)
-       - Reader.java   (read data from log file)     
+       - Writer.java    
+       - Reader.java       
 - input
   - inactivity_period.txt
   - log.csv

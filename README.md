@@ -6,7 +6,6 @@
 - run.sh
 - src
   - com.insight
-    - ArgumentParser.java 
     - common
       - ArgumentPaser.java       
     - model
@@ -15,6 +14,7 @@
     - service
       - Writer.java       
       - Reader.java  
+    - ArgumentParser.java       
 - input
   - inactivity_period.txt
   - log.csv

@@ -2,7 +2,6 @@
 ## This project is provided by Insight. It's kind of log parser project, which let us to identify when a user visits, calculate the duration of and number of documents requested during that visit, and then write the output to a file. We assume the data is streaming, but actually we parse data from log file. So in order for simulation, I use Scanner.next() to simulate the streaming data. 
 
 ### The Structure of my Code
-
     - README.md 
     - run.sh
     - src
@@ -39,5 +38,6 @@
        - log3.csv
        - inactivity_period.txt
        - output
-         - sessionization.txt        
+         - sessionization.txt   
+     
 

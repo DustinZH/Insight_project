@@ -8,10 +8,10 @@
     ├── src
     │   └── com.insight
     │                 ├──StreamHandler.java            (the main class)
-    │                 └── common
-    │                 │        ├──ArgumentParser.java  (used to parse  args)
+    │                 ├──common
+    |          │      ├──ArgumentParser.java  (used to parse  args)
     │                 │
-    │                 └── model
+    │                 ├── model
     │                 │       └── LogEntry.java
     │                 │       └── User.java      
     │                 └── service

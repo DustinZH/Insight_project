@@ -3,69 +3,41 @@
 
 ### The Structure of my Code
 
-    ├── README.md 
-    ├── run.sh
-    ├── src
-    │   └── com.insight
-    │       ├── StreamHandler.java  
-    │       ├── common
-    │       ├── ArgumentParser.java  
-    │       │
-            ├── model
-            │   └── LogEntry.java
-            │   └── User.java      
-            └── service
-                └── Writer.java   (write result into file)
-                └── Reader.java   (read data from log file)     
-    ├── input
-    │   └── inactivity_period.txt
-    │   └── log.csv
-    ├── output
-    |   └── sessionization.txt
-    ├── test
-        └── run_test1.sh
-        └── run_test2.sh
-        └── run_test3.sh
-        └── test1
-        │   └── log1.csv
-        │   └── inactivity_period.txt
-        │   |__ output
-        │       └── sessionization.txt
-        └── test2
-        │   └── log2.csv
-        │   └── inactivity_period.txt
-        │   |__ output
-        │       └── sessionization.txt
-        └── test3
-            └── log3.csv
-            └── inactivity_period.txt
-            |__ output
-                └── sessionization.txt                    
+    - README.md 
+    - run.sh
+    - src
+      - com.insight
+       - StreamHandler.java  
+       - common
+       - ArgumentParser.java  
+       - model
+         - LogEntry.java
+         - User.java        
+       - service
+         - Writer.java    (write result into file)
+         - Reader.java   (read data from log file)     
+    - input
+      - inactivity_period.txt
+      - log.csv
+    - output
+      - sessionization.txt
+    -test
+     - run_test1.sh
+     - run_test2.sh
+     - run_test3.sh
+     - test1
+       - log1.csv
+       - inactivity_period.txt
+       - output
+         - sessionization.txt
+     - test3
+       - log3.csv
+       - inactivity_period.txt
+       - output
+         - sessionization.txt
+     - test3
+       - log3.csv
+       - inactivity_period.txt
+       - output
+         - sessionization.txt        
 
-
-    ├── README.md 
-    ├── run.sh
-    ├── src
-    │   └── com.insight
-    │       ├── StreamHandler.java  
-    │       ├── common
-            ├── model
-    ├── input
-    │   └── inactivity_period.txt
-    │   └── log.csv
-    ├── output
-    |   └── sessionization.txt
-    ├── insight_testsuite
-        └── run_tests.sh
-        └── tests
-            └── test_1
-            |   ├── input
-            |   │   └── inactivity_period.txt
-            |   │   └── log.csv
-            |   |__ output
-            |   │   └── sessionization.txt
-            ├── your-own-test_1
-                ├── input
-                │   └── your-own-inputs
-                |── output
-                    └── sessionization.txt

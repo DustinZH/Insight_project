@@ -6,7 +6,8 @@
 - run.sh
 - src
   - com.insight
-    - model
+    - common
+      - ArgumentPaser.java      
     - common
       - ArgumentPaser.java       
     - model

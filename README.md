@@ -7,8 +7,8 @@
 - src
   - com.insight
     - StreamHandler.java  
-    - common
-      - ArgumentParser.java          
+    - common
+      - ArgumentPaser.java       
     - model
       - LogEntry.java      
       - User.java

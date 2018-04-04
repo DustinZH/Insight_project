@@ -1,0 +1,1 @@
+ java -cp "../insight.jar" com.insight.StreamHandler --input="./test1/log.csv" --output="./test1/output/sessionization.txt" --invalidPeriod="./test1/inactivity_period.txt"

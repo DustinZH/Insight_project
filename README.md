@@ -49,6 +49,7 @@
     │   └── com.insight
     │       ├── StreamHandler.java  
     │       ├── common
+            ├── model
     ├── input
     │   └── inactivity_period.txt
     │   └── log.csv

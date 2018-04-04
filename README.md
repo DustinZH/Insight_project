@@ -14,7 +14,9 @@
     - service
       - Writer.java       
       - Reader.java  
-    - service  
+    - service
+      - Writer.java       
+      - Reader.java 
 - input
   - inactivity_period.txt
   - log.csv

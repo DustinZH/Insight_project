@@ -9,7 +9,7 @@
     - StreamHandler.java  
     - common
       - sessionization.txt       
-      - ArgumentParser.java  
+      - argumentParser.java  
      - model
        - LogEntry.java
        - User.java        

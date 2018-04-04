@@ -49,14 +49,6 @@
     │   └── com.insight
     │       ├── StreamHandler.java  
     │       ├── common
-    │       ├── ArgumentParser.java  
-    │       │
-    │       ├── model
-    │       │   └── LogEntry.java
-    │       │   └── User.java      
-    │       └── service
-    │           └── Writer.java   (write result into file)
-    │           └── Reader.java   (read data from log file)   
     ├── input
     │   └── inactivity_period.txt
     │   └── log.csv

@@ -9,12 +9,12 @@
     - StreamHandler.java  
     - common
       - ArgumentParser.java          
-     - model
-       - LogEntry.java
-       - User.java        
-     - service
-       - Writer.java    
-       - Reader.java       
+    - model
+      - LogEntry.java      
+      - User.java
+    - service
+      - Writer.java       
+      - Reader.java  
 - input
   - inactivity_period.txt
   - log.csv

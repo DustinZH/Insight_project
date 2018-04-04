@@ -7,16 +7,16 @@
     ├── run.sh
     ├── src
     │   └── com.insight
-    │                 ├──StreamHandler.java            (the main class)
-    │                 ├──common
-    |                 ├──ArgumentParser.java  (used to parse  args)
-    │                 │
-    │                 ├── model
-    │                 │       └── LogEntry.java
-    │                 │       └── User.java      
-    │                 └── service
-    │                           └── Writer.java   (write result into file)
-    │                           └── Reader.java   (read data from log file)     
+    │       ├──StreamHandler.java            (the main class)
+    │       ├──common
+    |       ├──ArgumentParser.java  (used to parse  args)
+    │       │
+    │       ├── model
+    │       │   └── LogEntry.java
+    │       │   └── User.java      
+    │       └── service
+    │           └── Writer.java   (write result into file)
+    │           └── Reader.java   (read data from log file)     
     ├── input
     │   └── inactivity_period.txt
     │   └── log.csv
@@ -27,20 +27,20 @@
         └── run_test2.sh
         └── run_test3.sh
         └── test1
-        │    └── log1.csv
-        │    └── inactivity_period.txt
-        │    |__ output
-        │             └── sessionization.txt
+        │   └── log1.csv
+        │   └── inactivity_period.txt
+        │   |__ output
+        │       └── sessionization.txt
         └── test2
-        │    └── log2.csv
-        │    └── inactivity_period.txt
-        │    |__ output
-        │             └── sessionization.txt
+        │   └── log2.csv
+        │   └── inactivity_period.txt
+        │   |__ output
+        │       └── sessionization.txt
         └── test3
             └── log3.csv
             └── inactivity_period.txt
             |__ output
-                     └── sessionization.txt                    
+                └── sessionization.txt                    
 
 
     ├── README.md 

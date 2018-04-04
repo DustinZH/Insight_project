@@ -8,8 +8,7 @@
   - com.insight
     - StreamHandler.java  
     - common
-      - sessionization.txt       
-      - argumentParser.java  
+      - ArgumentParser.java          
      - model
        - LogEntry.java
        - User.java        

@@ -17,8 +17,8 @@
     - main
       - ArgumentParser.java
 - input
-  - inactivity_period.txt
-  - log.csv
+  - log1.csv
+  - inactivity_period.txt
 - output
   - sessionization.txt
 -test

@@ -6,7 +6,7 @@
 - run.sh
 - src
   - com.insight
-    - StreamHandler.java (main class)
+    - model
     - common
       - ArgumentPaser.java       
     - model

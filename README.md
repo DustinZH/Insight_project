@@ -7,15 +7,15 @@
 - src
   - com.insight
     - common
-      - ArgumentPaser.java       
+      - ArgumentPaser.java     (parse args)
     - model
       - LogEntry.java      
       - User.java
     - service
-      - Writer.java       
-      - Reader.java  
+      - Writer.java       (write result into file)
+      - Reader.java       (read log data fro file)
     - main
-      - ArgumentParser.java
+      - StreamHandler.java  (main class)
 - input
   - log1.csv
   - inactivity_period.txt

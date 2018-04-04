@@ -7,9 +7,9 @@
     ├── run.sh
     ├── src
     │   └── com.insight
-    │       ├──StreamHandler.java            (the main class)
-    │       ├──common
-    |       ├──ArgumentParser.java  (used to parse  args)
+    │       ├── StreamHandler.java            (the main class)
+    │       ├── common
+    |       ├── ArgumentParser.java  (used to parse  args)
     │       │
     │       ├── model
     │       │   └── LogEntry.java
